@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![YOLO11](https://img.shields.io/badge/YOLO-11-green)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B)
 # 🚗 Smart Parking Slots Detector and Tracking
 
 A Computer Vision project for **real-time parking slot detection and tracking** using **YOLO11**, **ByteTrack**, **OpenCV**, and **Streamlit**.
