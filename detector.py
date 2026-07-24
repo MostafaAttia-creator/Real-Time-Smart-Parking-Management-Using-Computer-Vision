@@ -1,11 +1,12 @@
 from ultralytics import YOLO
 import cv2
 import time
+from pathlib import Path
 
-# Load YOLO model once
-model = YOLO(r"D:\Projects\Parking_slot\runs\train-6\weights\best.pt")
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "best.pt"
 
-
+model = YOLO(str(MODEL_PATH))
 def process_video(video_path):
 
     cap = cv2.VideoCapture(video_path)
