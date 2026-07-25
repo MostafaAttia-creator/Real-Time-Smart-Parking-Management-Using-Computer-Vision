@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import time
 
-model = YOLO("weights/best.pt")
+model = YOLO("best.pt")
 
 
 def process_video(video_path):
