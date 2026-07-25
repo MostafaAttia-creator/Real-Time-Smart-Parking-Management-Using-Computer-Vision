@@ -2,8 +2,7 @@ from ultralytics import YOLO
 import cv2
 import time
 
-# Load YOLO model once
-model = YOLO(r"D:\Projects\Parking_slot\runs\train-6\weights\best.pt")
+model = YOLO("weights/best.pt")
 
 
 def process_video(video_path):
