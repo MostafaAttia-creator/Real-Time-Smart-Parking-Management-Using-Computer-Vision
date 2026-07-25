@@ -24,7 +24,6 @@ def process_video(video_path):
         results = model.track(
             frame,
             persist=True,
-            tracker="bytetrack.yaml",
             verbose=False
         )
 
