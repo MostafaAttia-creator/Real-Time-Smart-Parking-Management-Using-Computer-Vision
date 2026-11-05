@@ -131,6 +131,9 @@ https://github.com/MostafaAttia-creator/parking-slots-detector-and-tracking
 **Mostafa Atia**
 
 AI Engineer | Computer Vision | Deep Learning
+**Ayham Badr**
+
+AI Engineer | Computer Vision | Deep Learning
 
 GitHub Repository:
 https://github.com/MostafaAttia-creator/parking-slots-detector-and-tracking
